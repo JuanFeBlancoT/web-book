@@ -1,0 +1,22 @@
+{
+  "name": "parcial_eco_2",
+  "version": "1.0.0",
+  "description": "firebase web book review",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack --watch --progress",
+    "visualize-bundle": "webpack --analyze"
+  },
+  "author": "Juan Felipe Blanco",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.1.2"
+  },
+  "devDependencies": {
+    "webpack": "^5.58.2",
+    "webpack-bundle-analyzer": "^4.5.0",
+    "webpack-cli": "^4.9.0"
+  }
+}
